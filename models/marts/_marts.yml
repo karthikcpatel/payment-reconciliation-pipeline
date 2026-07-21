@@ -10,9 +10,9 @@ models:
           - unique
           - not_null
       - name: discrepancy_type
-        description: "Classification: matched, missing_settlement, amount_mismatch, duplicate, or delayed."
+        description: "Classification: matched, missing_settlement, amount_mismatch, duplicate, delayed, or needs_manual_review."
         tests:
           - not_null
           - accepted_values:
               arguments:
-                values: ['matched', 'missing_settlement', 'amount_mismatch', 'duplicate', 'delayed']
+                values: ['matched', 'missing_settlement', 'amount_mismatch', 'duplicate', 'delayed', 'needs_manual_review']

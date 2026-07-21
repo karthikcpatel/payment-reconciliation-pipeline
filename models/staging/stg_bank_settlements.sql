@@ -5,9 +5,9 @@ with source as (
 cleaned as (
     select
         settlement_id,
-        txn_id,
-        cast(amount as numeric) as settled_amount,
-        cast(settlement_date as timestamp) as settlement_date
+        cast(settled_amount as numeric) as settled_amount,
+        cast(settlement_date as timestamp) as settlement_date,
+        bank_descriptor
     from source
 )
 
