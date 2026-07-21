@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: mart_reconciliation
+    description: "Reconciliation of gateway transactions against bank settlements, classified by discrepancy type."
+    columns:
+      - name: txn_id
+        description: "Unique transaction ID from the payment gateway."
+        tests:
+          - unique
+          - not_null
+      - name: discrepancy_type
+        description: "Classification: matched, missing_settlement, amount_mismatch, duplicate, or delayed."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['matched', 'missing_settlement', 'amount_mismatch', 'duplicate', 'delayed']

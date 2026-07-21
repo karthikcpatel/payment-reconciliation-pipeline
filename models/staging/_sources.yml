@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: fintech-reconciliation
+    schema: reconciliation
+    tables:
+      - name: raw_gateway_transactions
+      - name: raw_bank_settlements
