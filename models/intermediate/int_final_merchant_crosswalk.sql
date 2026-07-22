@@ -11,10 +11,7 @@ corrections as (
 combined as (
     select
         d.bank_descriptor,
-        case
-            when d.bank_descriptor = 'TST*SMI' then null  -- genuinely ambiguous, left unresolved by design
-            else coalesce(c.corrected_merchant, d.discovered_merchant)
-        end as final_merchant
+        coalesce(c.corrected_merchant, d.discovered_merchant) as final_merchant
     from discovered d
     left join corrections c on d.bank_descriptor = c.bank_descriptor
 )

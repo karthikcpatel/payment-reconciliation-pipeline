@@ -34,6 +34,12 @@ classified as (
             when days_to_settle > 3 then 'delayed'
             else 'matched'
         end as discrepancy_type,
+        case
+            when num_candidates is null or num_candidates = 0 then null
+            when num_candidates = 1 then 'unique'
+            when num_candidates between 2 and 4 then 'medium'
+            else 'low'
+        end as match_confidence,
         round(gateway_amount - coalesce(settled_amount, 0), 2) as amount_diff_signed
     from joined
 )
