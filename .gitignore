@@ -9,3 +9,4 @@ data/_private_full_answer_key.csv
 data/merchant_descriptor_crosswalk.csv
 seeds/merchant_descriptor_crosswalk.csv
 *.numbers
+data/_private_excel_analysis_ready.csv

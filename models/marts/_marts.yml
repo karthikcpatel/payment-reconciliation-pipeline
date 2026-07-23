@@ -2,13 +2,22 @@ version: 2
 
 models:
   - name: mart_reconciliation
-    description: "Reconciliation of gateway transactions against bank settlements, classified by discrepancy type."
+    description: "Reconciliation of gateway transactions against bank settlements, classified by discrepancy type and match confidence."
     columns:
       - name: txn_id
         description: "Unique transaction ID from the payment gateway."
         tests:
           - unique
           - not_null
+          - relationships:
+              to: ref('stg_gateway_transactions')
+              field: txn_id
+      - name: settlement_id
+        description: "Matched settlement ID, null if no settlement found."
+        tests:
+          - relationships:
+              to: ref('stg_bank_settlements')
+              field: settlement_id
       - name: discrepancy_type
         description: "Classification: matched, missing_settlement, amount_mismatch, duplicate, delayed, or needs_manual_review."
         tests:
@@ -16,3 +25,20 @@ models:
           - accepted_values:
               arguments:
                 values: ['matched', 'missing_settlement', 'amount_mismatch', 'duplicate', 'delayed', 'needs_manual_review']
+      - name: match_confidence
+        description: "Confidence tier for matched transactions: unique, medium, or low, based on candidate pool size. Null for missing_settlement."
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['unique', 'medium', 'low']
+
+  - name: mart_review_queue
+    description: "Prioritized queue of transactions requiring human review, ranked by risk category and top 30 by dollar exposure per tier."
+    columns:
+      - name: txn_id
+        tests:
+          - unique
+          - not_null
+      - name: review_reason
+        tests:
+          - not_null
