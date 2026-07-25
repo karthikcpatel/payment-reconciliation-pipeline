@@ -1,0 +1,143 @@
+txn_id,merchant,gateway_amount,txn_timestamp,settlement_id,settled_amount,discrepancy_type,match_confidence,num_candidates,amount_diff,days_to_settle,review_priority,review_reason,estimated_exposure
+TXN004586,"Sanders, Lawrence and Olson",497.380000000,2026-06-20 12:24:08.144328+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,497.380000000
+TXN024272,Mcdaniel-Garza,488.470000000,2026-06-26 21:25:22.731389+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,488.470000000
+TXN015205,"Morgan, Campbell and Becker",486.930000000,2026-06-28 04:00:42.616361+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,486.930000000
+TXN020838,Hall-Barrett,474.550000000,2026-06-29 19:40:15.804810+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,474.550000000
+TXN014703,"Harvey, Gray and White",465.510000000,2026-06-29 23:44:11.360314+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,465.510000000
+TXN000939,Horn-Parks,415.840000000,2026-06-24 16:32:25.378750+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,415.840000000
+TXN006029,"Haynes, Cisneros and Hopkins",400.640000000,2026-06-26 04:58:05.611021+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,400.640000000
+TXN024546,"Dean, Freeman and Mclaughlin",390.100000000,2026-06-28 20:28:00.559266+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,390.100000000
+TXN010985,Vargas-Daniels,387.440000000,2026-06-28 06:55:06.967165+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,387.440000000
+TXN007095,Gray-Watson,379.190000000,2026-06-29 05:52:20.801518+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,379.190000000
+TXN007029,"Stephens, Durham and Phillips",357.710000000,2026-06-27 21:35:47.559861+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,357.710000000
+TXN013329,"Martin, Williams and Henderson",323.890000000,2026-06-23 16:09:37.033432+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,323.890000000
+TXN024194,Galloway-Wells,308.530000000,2026-05-03 03:08:22.522323+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,308.530000000
+TXN003099,"Hicks, Larsen and Bryant",299.030000000,2026-06-28 04:08:23.295984+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,299.030000000
+TXN003233,Gibson-Weber,293.470000000,2026-06-26 05:10:28.976111+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,293.470000000
+TXN013055,"Fritz, Henderson and Mccall",284.240000000,2026-05-27 22:25:09.947470+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,284.240000000
+TXN023103,"Fritz, Henderson and Mccall",279.300000000,2026-06-29 05:41:38.206753+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,279.300000000
+TXN012658,Le-Wilson,277.320000000,2026-05-01 17:19:05.679579+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,277.320000000
+TXN021337,Gibson-Weber,264.180000000,2026-06-28 22:19:58.953876+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,264.180000000
+TXN004325,"Barber, Richards and Carlson",252.790000000,2026-05-20 09:02:54.118228+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,252.790000000
+TXN004647,"Daniels, Jacobs and Hunt",245.830000000,2026-06-29 20:49:47.532921+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,245.830000000
+TXN010860,Black and Sons,244.410000000,2026-06-28 05:34:38.167587+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,244.410000000
+TXN023952,Gray-Watson,243.000000000,2026-06-29 16:41:39.090681+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,243.000000000
+TXN018298,"Foster, Long and Brown",240.550000000,2026-05-14 23:11:53.122324+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,240.550000000
+TXN011345,Parker-Henry,236.650000000,2026-06-28 01:28:03.998666+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,236.650000000
+TXN015245,"Daniels, Jacobs and Hunt",235.140000000,2026-06-05 20:16:38.397519+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,235.140000000
+TXN021227,"Martin, Williams and Henderson",229.120000000,2026-06-28 12:20:02.331934+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,229.120000000
+TXN015864,"Morgan, Campbell and Becker",223.570000000,2026-06-19 13:05:30.111883+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,223.570000000
+TXN020029,Horn-Parks,211.790000000,2026-06-29 15:50:44.339219+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,211.790000000
+TXN005061,"Dean, Freeman and Mclaughlin",206.080000000,2026-06-15 18:52:17.711743+00:00,,,missing_settlement,,,,,1,No settlement found — full amount unaccounted for,206.080000000
+TXN015330,Parker-Henry,499.770000000,2026-06-28 04:41:59.683499+00:00,STL015204,499.770000000,duplicate,medium,2,0E-9,3,2,Possible duplicate payout — verify only one settlement is legitimate,499.770000000
+TXN004143,Moore-Evans,499.570000000,2026-06-22 21:59:23.948720+00:00,STL004086,499.570000000,duplicate,low,5,0E-9,1,2,Possible duplicate payout — verify only one settlement is legitimate,499.570000000
+TXN016526,Jacobs Inc,499.520000000,2026-06-25 12:36:21.181293+00:00,STL016391,499.520000000,duplicate,low,5,0E-9,3,2,Possible duplicate payout — verify only one settlement is legitimate,499.520000000
+TXN003687,Smith Inc,499.460000000,2026-06-05 23:22:41.393746+00:00,STL003635,499.460000000,duplicate,low,6,0E-9,1,2,Possible duplicate payout — verify only one settlement is legitimate,499.460000000
+TXN013276,Moore-Evans,498.880000000,2026-05-22 21:18:51.443236+00:00,STL013135,498.880000000,duplicate,low,5,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,498.880000000
+TXN023756,"Dixon, Rodriguez and King",498.870000000,2026-06-08 02:30:33.504578+00:00,STL023523,498.870000000,duplicate,low,8,0E-9,3,2,Possible duplicate payout — verify only one settlement is legitimate,498.870000000
+TXN017576,Jacobs Inc,496.690000000,2026-05-08 02:48:48.185616+00:00,STL017444,496.690000000,duplicate,medium,4,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,496.690000000
+TXN020398,"Sharp, Hall and Briggs",495.770000000,2026-05-25 14:31:29.537272+00:00,STL020232,495.770000000,duplicate,medium,3,0E-9,1,2,Possible duplicate payout — verify only one settlement is legitimate,495.770000000
+TXN000237,"Stephens, Durham and Phillips",495.350000000,2026-06-14 08:37:11.565214+00:00,STL000240,495.350000000,duplicate,low,9,0E-9,1,2,Possible duplicate payout — verify only one settlement is legitimate,495.350000000
+TXN000519,"Chase, Olsen and Morrison",492.820000000,2026-06-10 18:11:27.653746+00:00,STL000525,492.820000000,duplicate,low,8,0E-9,3,2,Possible duplicate payout — verify only one settlement is legitimate,492.820000000
+TXN015681,Wilkins PLC,492.210000000,2026-05-05 17:13:14.841576+00:00,STL015552,492.210000000,duplicate,low,8,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,492.210000000
+TXN005143,"Randall, Thompson and Thompson",490.940000000,2026-05-09 07:47:29.354610+00:00,STL005064,490.940000000,duplicate,low,6,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,490.940000000
+TXN023534,Roman Inc,490.850000000,2026-06-02 08:47:21.137917+00:00,STL023308,490.850000000,duplicate,low,11,0E-9,1,2,Possible duplicate payout — verify only one settlement is legitimate,490.850000000
+TXN022536,"Hicks, Larsen and Bryant",490.820000000,2026-06-08 12:45:36.756045+00:00,STL022326,490.820000000,duplicate,low,9,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,490.820000000
+TXN015062,Lamb Group,490.130000000,2026-05-30 14:16:45.810833+00:00,STL014937,490.130000000,duplicate,medium,3,0E-9,1,2,Possible duplicate payout — verify only one settlement is legitimate,490.130000000
+TXN022026,Wilkins PLC,489.810000000,2026-05-06 06:59:28.190485+00:00,STL015552,492.210000000,duplicate,low,7,2.400000000,1,2,Possible duplicate payout — verify only one settlement is legitimate,492.210000000
+TXN021088,"Dixon, Rodriguez and King",489.450000000,2026-06-01 11:30:29.437862+00:00,STL020902,489.450000000,duplicate,low,10,0E-9,3,2,Possible duplicate payout — verify only one settlement is legitimate,489.450000000
+TXN011477,Roman Inc,488.760000000,2026-06-26 20:13:00.879079+00:00,STL011344,488.760000000,duplicate,medium,4,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,488.760000000
+TXN014192,Owens-Harris,488.630000000,2026-06-07 08:02:23.680558+00:00,STL014072,488.630000000,duplicate,low,6,0E-9,1,2,Possible duplicate payout — verify only one settlement is legitimate,488.630000000
+TXN000439,Jones-Bond,487.240000000,2026-05-09 04:01:09.260662+00:00,STL000443,487.240000000,duplicate,medium,3,0E-9,3,2,Possible duplicate payout — verify only one settlement is legitimate,487.240000000
+TXN023172,Watson-Riley,486.020000000,2026-05-21 22:58:54.268270+00:00,STL022947,486.020000000,duplicate,low,5,0E-9,3,2,Possible duplicate payout — verify only one settlement is legitimate,486.020000000
+TXN011229,"Murphy, Smith and Kelly",485.270000000,2026-06-07 14:14:38.330745+00:00,STL011097,485.270000000,duplicate,low,6,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,485.270000000
+TXN002680,"Fritz, Henderson and Mccall",485.020000000,2026-05-21 06:39:37.361697+00:00,STL002641,485.020000000,duplicate,low,8,0E-9,1,2,Possible duplicate payout — verify only one settlement is legitimate,485.020000000
+TXN003786,Howard-Kelly,484.500000000,2026-05-22 05:12:04.392180+00:00,STL017460,481.110000000,duplicate,low,7,3.390000000,12,2,Possible duplicate payout — verify only one settlement is legitimate,481.110000000
+TXN017787,"Dean, Freeman and Mclaughlin",484.470000000,2026-06-22 11:50:05.981633+00:00,STL017653,484.470000000,duplicate,medium,3,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,484.470000000
+TXN011023,"Tapia, Mitchell and Buck",484.100000000,2026-06-16 10:53:31.873907+00:00,STL010891,484.100000000,duplicate,low,9,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,484.100000000
+TXN010650,Lamb Group,483.670000000,2026-05-19 11:15:26.877655+00:00,STL014937,490.130000000,duplicate,low,10,6.460000000,12,2,Possible duplicate payout — verify only one settlement is legitimate,490.130000000
+TXN020886,Edwards Inc,483.030000000,2026-05-15 15:31:56.258309+00:00,STL020708,483.030000000,duplicate,low,9,0E-9,3,2,Possible duplicate payout — verify only one settlement is legitimate,483.030000000
+TXN023870,"Foster, Long and Brown",482.390000000,2026-05-10 01:12:05.405335+00:00,STL023634,482.390000000,duplicate,low,8,0E-9,2,2,Possible duplicate payout — verify only one settlement is legitimate,482.390000000
+TXN013233,Cruz PLC,482.220000000,2026-05-20 16:16:56.062417+00:00,STL013089,482.220000000,duplicate,low,9,0E-9,1,2,Possible duplicate payout — verify only one settlement is legitimate,482.220000000
+TXN009892,Tanner Inc,481.270000000,2026-05-16 00:24:39.037399+00:00,STL009777,481.270000000,needs_manual_review,low,10,0E-9,1,3,"Ambiguous tie — two equally plausible settlements, no confident pick",481.270000000
+TXN021211,Wilson-King,453.040000000,2026-05-12 08:30:11.220793+00:00,STL021024,453.040000000,needs_manual_review,low,8,0E-9,3,3,"Ambiguous tie — two equally plausible settlements, no confident pick",453.040000000
+TXN006016,Horn-Parks,432.920000000,2026-05-15 16:17:04.616718+00:00,STL005922,432.920000000,needs_manual_review,low,9,0E-9,1,3,"Ambiguous tie — two equally plausible settlements, no confident pick",432.920000000
+TXN000827,"Morgan, Campbell and Becker",376.310000000,2026-05-10 21:25:56.110094+00:00,STL000824,376.310000000,needs_manual_review,low,8,0E-9,2,3,"Ambiguous tie — two equally plausible settlements, no confident pick",376.310000000
+TXN014203,Lucero Inc,373.300000000,2026-05-21 16:16:50.815956+00:00,STL014084,373.300000000,needs_manual_review,medium,3,0E-9,1,3,"Ambiguous tie — two equally plausible settlements, no confident pick",373.300000000
+TXN010306,"Glass, Miller and Jones",314.840000000,2026-05-01 18:12:12.565031+00:00,STL010177,314.840000000,needs_manual_review,medium,4,0E-9,3,3,"Ambiguous tie — two equally plausible settlements, no confident pick",314.840000000
+TXN005899,Lucero Inc,279.630000000,2026-05-20 05:36:30.354534+00:00,STL005803,279.630000000,needs_manual_review,medium,4,0E-9,1,3,"Ambiguous tie — two equally plausible settlements, no confident pick",279.630000000
+TXN007974,"Wilson, Baxter and Robinson",246.170000000,2026-06-06 05:19:55.386985+00:00,STL005967,242.570000000,needs_manual_review,low,5,3.600000000,7,3,"Ambiguous tie — two equally plausible settlements, no confident pick",246.170000000
+TXN014524,"Sandoval, Phillips and Smith",231.470000000,2026-06-15 20:18:19.183310+00:00,STL014402,231.470000000,needs_manual_review,low,7,0E-9,1,3,"Ambiguous tie — two equally plausible settlements, no confident pick",231.470000000
+TXN016740,Smith-Mcguire,225.530000000,2026-05-20 07:16:52.676819+00:00,STL016601,225.530000000,needs_manual_review,low,6,0E-9,3,3,"Ambiguous tie — two equally plausible settlements, no confident pick",225.530000000
+TXN000729,Mcdaniel-Garza,212.220000000,2026-06-02 03:08:26.711699+00:00,STL000731,212.220000000,needs_manual_review,medium,4,0E-9,6,3,"Ambiguous tie — two equally plausible settlements, no confident pick",212.220000000
+TXN021781,Le-Wilson,129.810000000,2026-05-07 07:15:42.373114+00:00,STL021575,129.810000000,needs_manual_review,medium,2,0E-9,2,3,"Ambiguous tie — two equally plausible settlements, no confident pick",129.810000000
+TXN011389,Frey-Waters,108.940000000,2026-05-09 06:49:27.070070+00:00,STL011257,106.460000000,needs_manual_review,medium,2,2.480000000,1,3,"Ambiguous tie — two equally plausible settlements, no confident pick",108.940000000
+TXN009970,Suarez Group,108.760000000,2026-05-10 13:27:09.341390+00:00,STL011165,108.760000000,needs_manual_review,medium,3,0E-9,1,3,"Ambiguous tie — two equally plausible settlements, no confident pick",108.760000000
+TXN011295,Suarez Group,108.760000000,2026-05-08 16:50:14.045322+00:00,STL011165,108.760000000,needs_manual_review,medium,3,0E-9,3,3,"Ambiguous tie — two equally plausible settlements, no confident pick",108.760000000
+TXN012120,Anderson PLC,106.860000000,2026-06-10 17:20:58.462888+00:00,STL011980,106.860000000,needs_manual_review,medium,3,0E-9,2,3,"Ambiguous tie — two equally plausible settlements, no confident pick",106.860000000
+TXN005755,Roman Inc,75.450000000,2026-06-18 07:50:07.736726+00:00,STL005663,75.450000000,needs_manual_review,medium,2,0E-9,2,3,"Ambiguous tie — two equally plausible settlements, no confident pick",75.450000000
+TXN005718,Watson-Riley,47.880000000,2026-05-31 06:01:09.176814+00:00,STL005627,47.050000000,needs_manual_review,medium,4,0.830000000,2,3,"Ambiguous tie — two equally plausible settlements, no confident pick",47.880000000
+TXN003308,Gibson-Weber,35.100000000,2026-06-12 20:57:04.938559+00:00,STL003260,35.100000000,needs_manual_review,medium,2,0E-9,2,3,"Ambiguous tie — two equally plausible settlements, no confident pick",35.100000000
+TXN007999,Anderson PLC,34.640000000,2026-05-08 22:08:43.495158+00:00,STL007901,34.640000000,needs_manual_review,medium,4,0E-9,1,3,"Ambiguous tie — two equally plausible settlements, no confident pick",34.640000000
+TXN013909,Anderson PLC,34.640000000,2026-05-06 23:56:26.658163+00:00,STL007901,34.640000000,needs_manual_review,medium,4,0E-9,3,3,"Ambiguous tie — two equally plausible settlements, no confident pick",34.640000000
+TXN010091,Anderson PLC,31.650000000,2026-05-19 00:33:56.346663+00:00,STL009965,31.650000000,needs_manual_review,medium,3,0E-9,3,3,"Ambiguous tie — two equally plausible settlements, no confident pick",31.650000000
+TXN002606,"Stephens, Durham and Phillips",499.980000000,2026-06-12 03:56:28.527358+00:00,STL002567,499.980000000,matched,low,10,0E-9,1,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN019397,"Harris, Saunders and Hinton",499.950000000,2026-05-29 11:36:16.285744+00:00,STL019241,499.950000000,matched,low,5,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN008980,Gilbert-Bennett,499.930000000,2026-05-23 01:56:26.774738+00:00,STL008876,499.930000000,matched,low,7,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN023348,"Thomas, Lopez and Sanders",499.910000000,2026-06-17 08:55:36.099912+00:00,STL023118,499.910000000,matched,low,8,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN020234,Wilkins PLC,499.870000000,2026-05-07 08:05:12.670298+00:00,STL020071,499.870000000,matched,low,6,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN021287,"Martin, Williams and Henderson",499.750000000,2026-05-05 16:49:50.372983+00:00,STL021101,499.750000000,matched,low,6,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN002525,Nelson PLC,499.730000000,2026-06-19 00:15:35.843567+00:00,STL002488,499.730000000,matched,low,5,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN002217,Yu Ltd,499.620000000,2026-06-20 13:06:42.079396+00:00,STL002185,499.620000000,matched,low,5,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN016174,"Tapia, Mitchell and Buck",499.610000000,2026-05-20 07:40:55.790830+00:00,STL016039,499.610000000,matched,low,6,0E-9,1,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN006506,Jones-Bond,499.590000000,2026-05-28 17:01:52.144790+00:00,STL006407,499.590000000,matched,low,5,0E-9,1,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN014246,Ramos-Kent,499.510000000,2026-05-19 06:56:25.564201+00:00,STL014126,499.510000000,matched,low,6,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN001431,Weaver-Juarez,499.500000000,2026-05-25 20:13:09.267294+00:00,STL001424,499.500000000,matched,low,6,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN013213,Gilbert-Bennett,499.420000000,2026-05-29 15:45:50.230621+00:00,STL013068,499.420000000,matched,low,6,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN012887,"Daniels, Jacobs and Hunt",499.420000000,2026-05-04 16:47:47.669681+00:00,STL012744,499.420000000,matched,low,5,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN015134,"Barber, Richards and Carlson",499.410000000,2026-05-13 07:54:40.825382+00:00,STL015009,499.410000000,matched,low,5,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN022550,Wu-Curry,499.300000000,2026-05-09 06:47:15.020549+00:00,STL022339,499.300000000,matched,low,5,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN020898,Roman Inc,499.280000000,2026-05-31 11:01:29.373133+00:00,STL020721,499.280000000,matched,low,9,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN001273,Gilbert-Bennett,499.220000000,2026-05-27 13:56:15.089271+00:00,STL001268,499.220000000,matched,low,6,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN010614,Pitts-Green,499.160000000,2026-05-26 20:28:46.875383+00:00,STL010487,499.160000000,matched,low,5,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN010270,"Harvey, Gray and White",498.980000000,2026-05-17 06:52:57.458463+00:00,STL010141,498.980000000,matched,low,5,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN024227,Ramos-Kent,498.960000000,2026-05-27 11:44:42.970841+00:00,STL023991,498.960000000,matched,low,6,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN016924,"Chase, Olsen and Morrison",498.860000000,2026-05-23 10:26:34.211462+00:00,STL016788,498.860000000,matched,low,7,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN020762,"Odonnell, Curry and Gomez",498.710000000,2026-06-21 18:29:36.730418+00:00,STL020589,498.710000000,matched,low,6,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN014117,"Hicks, Larsen and Bryant",498.620000000,2026-05-29 14:40:52.575000+00:00,STL013995,498.620000000,matched,low,6,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN001100,Gilbert-Bennett,498.420000000,2026-06-16 18:43:44.204614+00:00,STL001097,498.420000000,matched,low,5,0E-9,3,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN009375,Cruz PLC,498.410000000,2026-05-18 17:56:01.873521+00:00,STL009263,498.410000000,matched,low,7,0E-9,2,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN010775,Gray-Watson,498.280000000,2026-06-05 06:10:41.039974+00:00,STL010644,498.280000000,matched,low,6,0E-9,1,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN012861,Smith Inc,498.240000000,2026-05-24 13:58:21.325549+00:00,STL012718,498.240000000,matched,low,8,0E-9,1,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN007834,"Glass, Miller and Jones",498.200000000,2026-05-19 04:58:31.309244+00:00,STL007737,498.200000000,matched,low,5,0E-9,1,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN000173,Robinson-Powell,498.200000000,2026-05-18 03:13:50.533987+00:00,STL000175,498.200000000,matched,low,6,0E-9,1,4,Matched from 5+ candidates — spot-check the pick is correct,0E-9
+TXN021554,Martin-Tate,499.880000000,2026-05-14 18:14:41.678309+00:00,STL008506,481.620000000,amount_mismatch,unique,1,18.260000000,14,5,Settled amount differs from gateway amount by $5 or more,18.260000000
+TXN010230,"Tapia, Mitchell and Buck",499.680000000,2026-06-21 09:00:44.838568+00:00,STL010106,494.070000000,amount_mismatch,unique,1,5.610000000,3,5,Settled amount differs from gateway amount by $5 or more,5.610000000
+TXN005527,Smith-Mcguire,499.330000000,2026-06-10 22:40:05.217018+00:00,STL000789,494.240000000,amount_mismatch,medium,4,5.090000000,1,5,Settled amount differs from gateway amount by $5 or more,5.090000000
+TXN019970,"Murphy, Smith and Kelly",499.280000000,2026-06-26 20:08:11.416862+00:00,STL009477,493.880000000,amount_mismatch,medium,2,5.400000000,2,5,Settled amount differs from gateway amount by $5 or more,5.400000000
+TXN021699,"Sharp, Hall and Briggs",499.100000000,2026-05-08 17:29:26.638583+00:00,STL005842,493.710000000,amount_mismatch,low,5,5.390000000,9,5,Settled amount differs from gateway amount by $5 or more,5.390000000
+TXN016066,Roman Inc,498.130000000,2026-05-04 22:13:52.755393+00:00,STL005952,492.620000000,amount_mismatch,medium,2,5.510000000,10,5,Settled amount differs from gateway amount by $5 or more,5.510000000
+TXN021771,Wilkins PLC,497.800000000,2026-05-16 17:24:28.946978+00:00,STL004570,478.060000000,amount_mismatch,unique,1,19.740000000,2,5,Settled amount differs from gateway amount by $5 or more,19.740000000
+TXN008029,"Lopez, Thompson and Coleman",496.740000000,2026-05-19 22:55:43.158049+00:00,STL019216,491.630000000,amount_mismatch,medium,3,5.110000000,3,5,Settled amount differs from gateway amount by $5 or more,5.110000000
+TXN006609,Barrett LLC,496.720000000,2026-06-12 04:29:27.296662+00:00,STL018027,491.270000000,amount_mismatch,medium,4,5.450000000,12,5,Settled amount differs from gateway amount by $5 or more,5.450000000
+TXN013633,"Sharp, Hall and Briggs",496.430000000,2026-06-06 03:56:31.590937+00:00,STL001207,487.430000000,amount_mismatch,medium,3,9.000000000,9,5,Settled amount differs from gateway amount by $5 or more,9.000000000
+TXN023584,Cruz PLC,496.310000000,2026-06-22 08:23:29.681673+00:00,STL002209,490.160000000,amount_mismatch,medium,4,6.150000000,7,5,Settled amount differs from gateway amount by $5 or more,6.150000000
+TXN018848,"Lopez, Thompson and Coleman",495.990000000,2026-06-14 23:00:32.026172+00:00,STL011339,478.720000000,amount_mismatch,unique,1,17.270000000,15,5,Settled amount differs from gateway amount by $5 or more,17.270000000
+TXN005621,Figueroa-Campos,492.740000000,2026-06-09 13:43:28.595241+00:00,STL018403,476.480000000,amount_mismatch,medium,2,16.260000000,7,5,Settled amount differs from gateway amount by $5 or more,16.260000000
+TXN014402,Gray-Watson,489.640000000,2026-05-05 19:40:45.080314+00:00,STL024328,469.670000000,amount_mismatch,medium,2,19.970000000,7,5,Settled amount differs from gateway amount by $5 or more,19.970000000
+TXN020773,Barrett LLC,488.300000000,2026-06-25 13:49:39.378395+00:00,STL020853,482.250000000,amount_mismatch,unique,1,6.050000000,3,5,Settled amount differs from gateway amount by $5 or more,6.050000000
+TXN018519,Horn-Parks,487.190000000,2026-06-17 23:39:55.830164+00:00,STL019814,469.950000000,amount_mismatch,medium,3,17.240000000,15,5,Settled amount differs from gateway amount by $5 or more,17.240000000
+TXN007116,"Tapia, Mitchell and Buck",486.380000000,2026-05-06 05:25:16.225166+00:00,STL004589,469.110000000,amount_mismatch,medium,2,17.270000000,4,5,Settled amount differs from gateway amount by $5 or more,17.270000000
+TXN022481,Cruz PLC,485.360000000,2026-06-29 14:06:33.532920+00:00,STL005817,474.870000000,amount_mismatch,unique,1,10.490000000,0,5,Settled amount differs from gateway amount by $5 or more,10.490000000
+TXN020688,Lamb Group,485.280000000,2026-06-23 20:28:07.037079+00:00,STL005814,473.880000000,amount_mismatch,medium,2,11.400000000,8,5,Settled amount differs from gateway amount by $5 or more,11.400000000
+TXN019844,Smith-Mcguire,484.660000000,2026-06-16 23:18:16.254843+00:00,STL004651,479.530000000,amount_mismatch,low,8,5.130000000,3,5,Settled amount differs from gateway amount by $5 or more,5.130000000
+TXN022163,Ramos-Kent,483.640000000,2026-05-13 18:14:24.530724+00:00,STL008643,489.710000000,amount_mismatch,low,5,6.070000000,8,5,Settled amount differs from gateway amount by $5 or more,6.070000000
+TXN000896,Ramos-Kent,482.390000000,2026-05-18 12:27:22.794782+00:00,STL018554,477.380000000,amount_mismatch,low,7,5.010000000,5,5,Settled amount differs from gateway amount by $5 or more,5.010000000
+TXN006287,"Morgan, Campbell and Becker",481.920000000,2026-06-24 18:47:36.153926+00:00,STL006193,473.040000000,amount_mismatch,unique,1,8.880000000,2,5,Settled amount differs from gateway amount by $5 or more,8.880000000
+TXN017597,"Peterson, Collins and Davis",479.370000000,2026-06-02 17:12:21.305453+00:00,STL017469,471.290000000,amount_mismatch,low,5,8.080000000,1,5,Settled amount differs from gateway amount by $5 or more,8.080000000
+TXN022943,Le-Wilson,477.550000000,2026-06-23 12:19:59.712590+00:00,STL007581,464.010000000,amount_mismatch,medium,4,13.540000000,6,5,Settled amount differs from gateway amount by $5 or more,13.540000000
+TXN018782,Weaver-Juarez,476.560000000,2026-06-25 02:41:52.590309+00:00,STL021031,468.150000000,amount_mismatch,medium,4,8.410000000,2,5,Settled amount differs from gateway amount by $5 or more,8.410000000
+TXN008368,Yu Ltd,474.080000000,2026-06-27 03:15:58.677486+00:00,STL020184,493.810000000,amount_mismatch,unique,1,19.730000000,3,5,Settled amount differs from gateway amount by $5 or more,19.730000000
+TXN021429,Wilson-King,473.600000000,2026-06-09 13:18:16.480476+00:00,STL021238,462.590000000,amount_mismatch,low,6,11.010000000,1,5,Settled amount differs from gateway amount by $5 or more,11.010000000
+TXN007225,"Dean, Freeman and Mclaughlin",470.380000000,2026-06-19 15:17:17.741051+00:00,STL013465,462.940000000,amount_mismatch,low,6,7.440000000,8,5,Settled amount differs from gateway amount by $5 or more,7.440000000
+TXN019914,Stewart LLC,468.930000000,2026-05-20 15:58:46.061375+00:00,STL010403,463.490000000,amount_mismatch,low,9,5.440000000,13,5,Settled amount differs from gateway amount by $5 or more,5.440000000

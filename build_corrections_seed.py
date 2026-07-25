@@ -75,3 +75,9 @@ df2 = pd.DataFrame(list(additional_corrections.items()), columns=["bank_descript
 df_combined = pd.concat([df, df2], ignore_index=True)
 df_combined.to_csv("seeds/manual_merchant_corrections.csv", index=False)
 print(f"Total corrections now: {len(df_combined)}")
+
+# Resolved after cross-referencing amount/date evidence
+final_correction = {"TST*SMI": "Smith-Mcguire"}
+df_final = pd.concat([df_combined, pd.DataFrame(list(final_correction.items()), columns=["bank_descriptor", "corrected_merchant"])], ignore_index=True)
+df_final.to_csv("seeds/manual_merchant_corrections.csv", index=False)
+print(f"Total corrections now: {len(df_final)}")
