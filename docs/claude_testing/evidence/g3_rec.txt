@@ -1,0 +1,8 @@
+......................................xxx.xx............                 [100%]
+=========================== short test summary info ============================
+XFAIL tests/reconciliation/test_matching_rules.py::test_RC016_a_settlement_is_not_assigned_to_two_transactions - PAYREC-001: one settlement can be selected by several gateway transactions (no one-to-one constraint)
+XFAIL tests/reconciliation/test_matching_rules.py::test_RC016b_second_payment_without_own_settlement_is_missing - PAYREC-001: the second identical-amount transaction should surface as missing_settlement
+XFAIL tests/reconciliation/test_matching_rules.py::test_RC017_selected_settlement_independent_of_input_order - PAYREC-004: rank() ORDER BY lacks a final deterministic tiebreaker (settlement_id)
+XFAIL tests/reconciliation/test_matching_rules.py::test_RC019_unmatched_bank_settlement_is_visible_in_an_output - PAYREC-003: settlements with no gateway transaction appear in no output (requires business confirmation of intent)
+XFAIL tests/reconciliation/test_matching_rules.py::test_RC020_negative_settlement_is_detected_by_repo_singular_test - PAYREC-002: negative settlements are silently dropped by the join; the repo's own dbt test cannot see them
+51 passed, 5 xfailed in 5.86s

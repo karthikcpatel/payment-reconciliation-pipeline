@@ -1,0 +1,4 @@
+......x........                                                          [100%]
+=========================== short test summary info ============================
+XFAIL tests/data_quality/test_source_data.py::test_DQ007_no_negative_settlement_amounts - PAYREC-002: 16 negative settled_amount rows violate the repo's own rule (tests/assert_settled_amount_not_negative.sql)
+14 passed, 1 xfailed in 2.29s

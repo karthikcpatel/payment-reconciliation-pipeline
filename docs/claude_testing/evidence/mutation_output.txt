@@ -1,0 +1,16 @@
+M01 tolerance floor 5.0 -> 6.0                | 8 failed, 105 passed, 16 xfailed in 15.26s | detecting test ids: CT005,CT008,CT012,CT014,CT015,RC002,RG003
+M02 tolerance pct 5% -> 6%                    | 9 failed, 104 passed, 16 xfailed in 13.78s | detecting test ids: CT005,CT006,CT008,CT012,CT014,CT015,RC002,RG003
+M03 window 15d -> 16d                         | 9 failed, 104 passed, 16 xfailed in 39.41s | detecting test ids: CT005,CT006,CT008,CT011,CT012,CT014,CT015,RC004,RG003
+M04 window start allows pre-txn settlement    | 10 failed, 103 passed, 16 xfailed in 67.80s (0:01:07) | detecting test ids: CT005,CT006,CT008,CT009,CT011,CT012,CT014,CT015,RC004,RG003
+M05 mismatch threshold 0.01 -> 0.05           | 3 failed, 110 passed, 16 xfailed in 28.87s | detecting test ids: CT005,RC005
+M06 delayed threshold 3 -> 4                  | 2 failed, 111 passed, 16 xfailed in 15.65s | detecting test ids: CT005,RC006
+M07 confidence medium upper 4 -> 5            | 2 failed, 111 passed, 16 xfailed in 14.05s | detecting test ids: CT005,RC013
+M08 ranking amount_diff asc -> desc           | 7 failed, 106 passed, 16 xfailed in 14.16s | detecting test ids: CT005,CT006,CT007,RC009,RC011b,RG003,RQ004
+M09 true_duplicate requires only same amount  | 4 failed, 109 passed, 16 xfailed in 14.13s | detecting test ids: CT005,CT006,RC011,RQ003
+M10 queue cap 30 -> 25                        | 3 failed, 110 passed, 16 xfailed in 14.33s | detecting test ids: CT006,CT008,RQ007
+M11 queue amount_mismatch threshold >=5 -> >5 | 1 failed, 112 passed, 16 xfailed in 14.10s | detecting test ids: RQ005
+M12 queue matched low-confidence >=5 -> >=6   | 2 failed, 111 passed, 16 xfailed in 32.03s | detecting test ids: CT006,RQ004
+M13 exposure for missing uses 0               | 5 failed, 108 passed, 16 xfailed in 42.42s | detecting test ids: CT006,CT007,CT008,RQ001,RQ003
+M14 delayed outranks amount_mismatch          | 3 failed, 110 passed, 16 xfailed in 37.07s | detecting test ids: CT005,CT006,RC007
+M15 crosswalk ignores manual corrections      | 8 failed, 106 passed, 15 xfailed in 34.52s | detecting test ids: CT005,CT006,CT008,CT012,CT015,RC014,RG001,RG003
+M16 staging amount cast to int                | 10 failed, 103 passed, 16 xfailed in 27.75s | detecting test ids: CT003,CT005,CT006,CT008,CT012,CT015,RC012,RG003,ST002,ST011

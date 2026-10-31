@@ -1,0 +1,7 @@
+...x.x.xx                                                                [100%]
+=========================== short test summary info ============================
+XFAIL tests/security/test_static_scan.py::test_SEC004_no_hardcoded_credential_paths_in_scripts - PAYREC-005: scripts hard-code the absolute path of a GCP service-account key file and the project id
+XFAIL tests/security/test_static_scan.py::test_SEC006_root_scripts_do_not_masquerade_as_pytest_tests - PAYREC-006: root-level test_composite_score.py is collected by a bare `pytest` and needs BigQuery credentials
+XFAIL tests/security/test_static_scan.py::test_SEC008_readme_ranking_claim_matches_sql - PAYREC-007: README says candidates are ranked with merchant_distance; the SQL does not use it
+XFAIL tests/security/test_static_scan.py::test_SEC009_no_orphan_models - PAYREC-008: int_merchant_classification is not referenced by any model or test (orphan)
+5 passed, 4 xfailed in 2.24s

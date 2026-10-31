@@ -1,0 +1,9 @@
+xx.xxxx....                                                              [100%]
+=========================== short test summary info ============================
+XFAIL tests/regression/test_defects_at_scale.py::test_RG001_matched_settlement_dollars_cannot_exceed_bank_dollars - PAYREC-001: 1,448 settlements are selected by 2+ transactions; mart settled dollars exceed bank dollars
+XFAIL tests/regression/test_defects_at_scale.py::test_RG002_each_settlement_selected_by_at_most_one_transaction - PAYREC-001: settlement reuse across transactions
+XFAIL tests/regression/test_defects_at_scale.py::test_RG003b_two_runs_select_identical_settlements - PAYREC-004: two runs of the same SQL on the same data in the same engine select different settlements
+XFAIL tests/regression/test_defects_at_scale.py::test_RG004_repo_nonnegative_test_agrees_with_source - PAYREC-002: negative settlements exist in source but the repo's non-negative test passes vacuously
+XFAIL tests/regression/test_defects_at_scale.py::test_RG005_every_bank_settlement_is_accounted_for - PAYREC-003: bank settlements not linked to any gateway transaction are not reported
+XFAIL tests/regression/test_defects_at_scale.py::test_RG006_selected_settlement_matches_committed_export - PAYREC-004: committed BigQuery export and local run disagree on selected settlement for tie cases
+5 passed, 6 xfailed in 3.85s

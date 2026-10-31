@@ -1,0 +1,61 @@
+0         STL008808  ...                      ANDPLC
+1         ST...L015796  ...        SP PITTS-GREEN #9900
+24749     STL023655  ...                  SQ *LAMGRO
+E       AssertionError: 16 negative settlements, total -173.26, e.g. ['STL003051', 'STL021258', 'STL006121']
+E       assert False
+E        +  where False =       settlement_id  ...              bank_descriptor\n3927      STL003051  ...            TST*MCDANIEL-GARZ\n4431      ...TL007427  ...      PAYPAL *ROMAN INC #2713\n22440     STL024729  ...      PAYPAL *JONES-BON #2876\n\n[16 rows x
+E       AssertionError: settlement(s) assigned to more than one transaction: [('S1', 2)]
+E       assert not [('S1', 2)]
+E       AssertionError: ['matched', 'matched']
+E       assert ['matched', 'matched'] == ['matched', '...g_settlement']
+E         
+E         At index 1 diff: 'matched' != 'missing_settlement'
+E         Use -v to get more diff
+E       AssertionError: same data, different row order chose S_A vs S_B
+E       assert 'S_A' == 'S_B'
+E         
+E         - S_B
+E         + S_A
+E       AssertionError: orphan bank settlement S2 (77.77) is not reported anywhere; surfaced={'S1'}
+E       assert 'S2' in {'S1'}
+E       AssertionError: repo rule 'settled_amount must never be negative' did not flag a -10.00 settlement (test runs on the mart, after the join discarded it)
+E       assert []
+E       AssertionError: mart settled total 6,258,100.98 > total positive bank settlements 6,203,402.33 (excess 54,698.65)
+E       assert 6258100.98 <= (6203402.33 + 0.005)
+E       AssertionError: 1444 settlements reused, 1495 extra assignments
+E       assert 1444 in (0, None)
+E       AssertionError: 104 transactions resolved to different settlements across identical runs
+E       assert not ['TXN015681', 'TXN015724', 'TXN019118', 'TXN019279', 'TXN015784', 'TXN015904', ...]
+E       AssertionError: 16 negative settlements in source, repo dbt test flags 0
+E       assert 0 == 16
+E       AssertionError: 1383 bank settlements (sum 357,618.18) appear in no output
+E       assert 1383 == 0
+E       AssertionError: 403 transactions resolved to a different settlement between engines
+E       assert False
+E        +  where False =           txn_id settlement_id_bq settlement_id_loc\n6      TXN019693        STL019539         STL019540\n41     TXN0043...XN018469        STL018328         STL018327\n24982  TXN013989        STL013863         STL013862\n\n[403 rows x
+E       AssertionError: 13 scripts hard-code a credential-file path: ['check_candidate_signal.py', 'compare_gap_approaches.py', 'export_for_dashboard.py', 'export_for_dashboard_v2.py', 'export_for_excel_analysis.py', 'load_to_bigquery.py', 'measure_queue_quali
+E       assert not ['export_for_excel_analysis.py', 'test_composite_score.py', 'compare_gap_approaches.py', 'review_discovered_crosswalk.py', 'export_for_dashboard.py', 'load_to_bigquery.py', ...]
+E       AssertionError: pytest collection of test_composite_score.py fails (exit 2)
+E       assert 2 == 0
+E        +  where 2 = CompletedProcess(args=['/home/labuser/payment-reconciliation-pipeline/.venv/bin/python', '-m', 'pytest', '--collect-on...!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\nno tests collected, 1 error in 0.53s\n", stderr='
+E       AssertionError: README documents merchant_distance in the ranking; int_candidate_matches.sql does not
+E       assert (not True or 'merchant_distance' in "{{ config(materialized='table') }}\n\nwith gateway as (\n    select * from {{ ref('stg_gateway_transactions') }}\n),\...rder by amount_diff asc, days_to_settle asc\n        ) as match_rank\n    from candidate
+E       AssertionError: ['int_merchant_classification']
+E       assert not ['int_merchant_classification']
+FAILED tests/data_quality/test_source_data.py::test_DQ007_no_negative_settlement_amounts
+FAILED tests/reconciliation/test_matching_rules.py::test_RC016_a_settlement_is_not_assigned_to_two_transactions
+FAILED tests/reconciliation/test_matching_rules.py::test_RC016b_second_payment_without_own_settlement_is_missing
+FAILED tests/reconciliation/test_matching_rules.py::test_RC017_selected_settlement_independent_of_input_order
+FAILED tests/reconciliation/test_matching_rules.py::test_RC019_unmatched_bank_settlement_is_visible_in_an_output
+FAILED tests/reconciliation/test_matching_rules.py::test_RC020_negative_settlement_is_detected_by_repo_singular_test
+FAILED tests/regression/test_defects_at_scale.py::test_RG001_matched_settlement_dollars_cannot_exceed_bank_dollars
+FAILED tests/regression/test_defects_at_scale.py::test_RG002_each_settlement_selected_by_at_most_one_transaction
+FAILED tests/regression/test_defects_at_scale.py::test_RG003b_two_runs_select_identical_settlements
+FAILED tests/regression/test_defects_at_scale.py::test_RG004_repo_nonnegative_test_agrees_with_source
+FAILED tests/regression/test_defects_at_scale.py::test_RG005_every_bank_settlement_is_accounted_for
+FAILED tests/regression/test_defects_at_scale.py::test_RG006_selected_settlement_matches_committed_export
+FAILED tests/security/test_static_scan.py::test_SEC004_no_hardcoded_credential_paths_in_scripts
+FAILED tests/security/test_static_scan.py::test_SEC006_root_scripts_do_not_masquerade_as_pytest_tests
+FAILED tests/security/test_static_scan.py::test_SEC008_readme_ranking_claim_matches_sql
+FAILED tests/security/test_static_scan.py::test_SEC009_no_orphan_models - Ass...
+16 failed, 113 passed in 13.99s

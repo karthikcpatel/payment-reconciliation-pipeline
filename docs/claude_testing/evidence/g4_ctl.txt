@@ -1,0 +1,7 @@
+.......
+[CT008] missing_settlement: 138 txns / 19261.90; queue shows 30 txns / 9642.65 (50.1%)
+...................
+[CT015] injected missing=1000 detected=106 recall=10.6%
+[CT015] missing_settlement labels=138, of which true injected-missing=106, false alarms=32
+..
+28 passed in 1.36s
